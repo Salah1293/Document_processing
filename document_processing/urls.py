@@ -8,7 +8,8 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('uploads.urls')),
-    path('', include('file_management.urls')),
+    path('file_management/', include('file_management.urls')),
+    path('operations/', include('operations.urls')),
 ]
 
 

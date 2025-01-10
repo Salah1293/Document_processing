@@ -41,9 +41,9 @@
 
 
 ## **Requirements**
-Python 3.x
-Django
-djangorestframework
-Pillow
-PyPDF2 (for handling PDFs)
-poppler-utils (for converting PDFs to images)
+  - Python 3.x
+  - Django
+  - djangorestframework
+  - Pillow
+  - PyPDF2 (for handling PDFs)
+  - poppler-utils (for converting PDFs to images)
